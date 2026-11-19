@@ -1,0 +1,53 @@
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 35px 5%;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    width: 55px;
+    height: 55px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}
+
+.areas {
+    width: 60%;
+    margin: 110px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.area {
+    width: 100%;
+    height: 75px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+} */

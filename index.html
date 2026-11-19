@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag Drop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- <div class="container">
+
+        <div class="boxes">
+            <div data-id="1" class="box" draggable="true">1</div>
+            <div data-id="1" class="box" draggable="true">2</div>
+            <div data-id="1" class="box" draggable="true">3</div>
+            <div data-id="1" class="box" draggable="true">4</div>
+            <div data-id="5" class="box" draggable="true">5</div>
+            <div data-id="5" class="box" draggable="true">6</div>
+            <div data-id="5" class="box" draggable="true">7</div>
+            <div data-id="5" class="box" draggable="true">8</div>
+            <div data-id="9" class="box" draggable="true">9</div>
+            <div data-id="9" class="box" draggable="true">10</div>
+            <div data-id="9" class="box" draggable="true">11</div>
+            <div data-id="9" class="box" draggable="true">12</div>
+        </div>
+
+        <div class="areas">
+
+            <div class="area" data-id="1">
+                <span>1-4</span>
+                <div class="drop-content"></div>
+            </div>
+
+            <div class="area" data-id="5">
+                <span>5-8</span>
+                <div class="drop-content"></div>
+            </div>
+
+            <div class="area" data-id="9">
+                <span>9-12</span>
+                <div class="drop-content"></div>
+            </div>
+
+        </div> -->
+    <!-- <form id="myForm" action="submit.php" method="POST" style="background-image: url('https://miro.medium.com/1*26I8r8nFE9hDsYgZvVqsHQ.jpeg');
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;
+           padding: 30px;">
+
+        <label for="name">Username:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+
+        <br><br>
+
+        <label for="confirmPassword">Submit-Password:</label>
+        <input type="password" id="confirmPassword" name="submitPassword" required>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form> -->
+    //textarea
+    <div class="container">
+        <label for="message">Message:</label>
+        <textarea id="message" maxlength="200" placeholder="Enter your message here..."></textarea>
+        <p>Characters: <span id="count">0</span></p>
+        <p>Remaining: <span id="remaining">200</span></p>
+        <p id="warning" style="color: red; display: none;">You have reached the maximum character limit!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
